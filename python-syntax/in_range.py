@@ -15,7 +15,9 @@ def in_range(nums, lowest, highest):
       30 fits
     """
 
-    # YOUR CODE HERE
+    for number in nums:
+      if number >= lowest and number <= highest:
+        print(f"{number} fits")
 
 
 in_range([10, 20, 30, 40, 50], 15, 30)            
