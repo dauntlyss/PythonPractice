@@ -86,4 +86,31 @@
 
 
 # ** Split**
-# Splits the string at every argument, and returns a list
+# Splits the string at every argument, and returns a list object
+# sodas = 'sprite,coke,fanta,mr.pibb'
+
+# In [107]: sodas.split(',')
+# Out[107]: ['sprite', 'coke', 'fanta', 'mr.pibb']
+
+# In [108]: sodas_list = sodas.split(',')
+
+
+
+# **Splitlines**
+# Turns multi line strings into a list
+# In [112]: """ I
+#      ...: am
+#      ...: tired
+#      ...: of
+#      ...: this
+#      ...: video
+#      ...: """.splitlines()
+# Out[112]: [' I', 'am', 'tired', 'of', 'this', 'video']
+
+
+
+
+# **Strip**
+#Returns a copy of the string with leading and trailing whitespace removed
+# In [114]: "   goood golly   ".strip()
+# Out[114]: 'goood golly'
